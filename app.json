@@ -27,6 +27,7 @@
     "android": {
       "package": "com.rputra.objdetect",
       "versionCode": 1
-    }
+    },
+    "scheme": "myapp"
   }
 }
