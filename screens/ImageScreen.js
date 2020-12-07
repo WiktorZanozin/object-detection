@@ -12,7 +12,7 @@ import * as jpeg from 'jpeg-js'
 import * as tf from '@tensorflow/tfjs';
 import '@tensorflow/tfjs-react-native';
 
-// import * as mobilenet from '@tensorflow-models/mobilenet'
+//z import * as mobilenet from '@tensorflow-models/mobilenet'
 // You can try with other models, see https://github.com/tensorflow/tfjs-models
 import * as cocossd from '@tensorflow-models/coco-ssd'
 

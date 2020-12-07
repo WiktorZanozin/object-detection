@@ -22,18 +22,16 @@ export default function HomeScreen() {
 
         <View style={styles.getStartedContainer}>
           <Text style={styles.getStartedText}>
-          This mobile application is to demonstrate how to use TensorFlow.js and a pre-trained 
-          deep convolutional neural network model COCO-SSD to detect objects from an image on mobile devices.
-          It is developed in Expo and React-Native, and thus should work on both iOS and 
-          Android mobile devices.
+          This mobile application was created for demonstration how to use TensorFlow.js and a pre-trained 
+          deep convolutional neural network model COCO-SSD and MobileNet to detect objects from an image on mobile devices.
           </Text>
 
           <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
-            <MonoText>Click the COCO-SSD tab to start the demo. </MonoText>
+            <MonoText>Click the Image Screen tab to detect objects from images using COCO-SSD pre-trained model. </MonoText>
           </View>
 
           <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
-            <MonoText>Click the references tab for more information. </MonoText>
+            <MonoText>Click the Camera Screen tab for real-time detection using MobileNet pre-trained model. </MonoText>
           </View>
 
         </View>

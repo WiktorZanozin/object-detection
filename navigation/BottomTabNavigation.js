@@ -35,11 +35,11 @@ export default function BottomTabNavigator({ navigation, route }) {
         }}
       />
       <BottomTab.Screen
-        name="Links"
+        name="CameraScreen"
         component={CameraScreen}
         options={{
-          title: 'References',
-          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="ios-book" />,
+          title: 'Camera Screen',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-videocam" />,
         }}
       />
     </BottomTab.Navigator>
