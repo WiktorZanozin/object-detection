@@ -1,2 +1,2 @@
 # obj-detection
-Mobile object detection using React Native &amp; Tensor Flow lite
+Mobile object detection using React Native &amp; TensorFlow.js
